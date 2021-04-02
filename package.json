@@ -1,0 +1,23 @@
+{
+  "name": "jrickelton.github.io",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrickelton/jrickelton.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrickelton/jrickelton.github.io/issues"
+  },
+  "homepage": "https://github.com/jrickelton/jrickelton.github.io#readme",
+  "dependencies": {
+    "cirrus-ui": "^0.6.1"
+  }
+}
