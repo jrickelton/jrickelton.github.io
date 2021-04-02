@@ -4,4 +4,27 @@ ul {
 
 #about-me {
   margin: 5%;
+  border-radius: 0.5em;
+  background-color: white;
+}
+
+#hero {
+  margin: 5%;
+  border-radius: 0.5em;
+  color: white;
+}
+
+#languages {
+  margin: 0.2em;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #59bac3,
+    #5fccb9,
+    #84dba3,
+    #bae589,
+    #f9e978
+  );
 }
