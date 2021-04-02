@@ -12,6 +12,12 @@ ul {
   background-color: white;
 }
 
+#projects {
+  margin: 5%;
+  border-radius: 0.5em;
+  background-color: white;
+}
+
 #hero {
   margin: 5%;
   border-radius: 0.5em;
@@ -32,4 +38,23 @@ body {
     #f9e978
   );
   background-attachment: fixed;
+}
+@media only screen and (min-width: 1200px) {
+  #card-box {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: space-evenly;
+  }
+}
+
+#card-box {
+  justify-items: cen;
+}
+
+.card {
+  margin: 0.7em;
+}
+
+.card__image {
+  background-image: linear-gradient(to bottom, #59bac3, #5fccb9);
 }
