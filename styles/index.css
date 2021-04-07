@@ -2,6 +2,11 @@ ul {
   list-style: none;
 }
 
+td {
+  vertical-align: top;
+  text-align: left;
+}
+
 #header {
   padding: 2em;
 }
@@ -12,7 +17,7 @@ ul {
 }
 
 #bio {
-  margin: 5% 10%;
+  margin: 2.5% 5%;
   border-radius: 0.5em;
   background-color: white;
 }
@@ -20,11 +25,20 @@ ul {
   margin: 0.2em;
 }
 
-#projects,
+#projects {
+  margin: 2.5% 5%;
+  border-radius: 0.5em;
+  background-color: white;
+}
+
 #contact {
   margin: 2.5% 5%;
   border-radius: 0.5em;
   background-color: white;
+}
+
+#contact table {
+  align-self: center;
 }
 
 body {
@@ -53,6 +67,7 @@ body {
   }
   #bio {
     grid-area: bio;
+    margin: 5% 10%;
   }
   #projects {
     grid-area: projects;
@@ -65,10 +80,6 @@ body {
     grid-template-columns: 350px 350px 350px;
     justify-content: space-evenly;
   }
-}
-
-#card-box {
-  justify-items: cen;
 }
 
 .card {
