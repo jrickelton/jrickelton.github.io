@@ -20,7 +20,8 @@ ul {
   margin: 0.2em;
 }
 
-#projects {
+#projects,
+#contact {
   margin: 2.5% 5%;
   border-radius: 0.5em;
   background-color: white;
@@ -43,7 +44,8 @@ body {
     grid-template-columns: 50% 50%;
     grid-template-areas:
       "hero bio"
-      "projects projects";
+      "projects projects"
+      "contact contact";
   }
 
   #hero {
