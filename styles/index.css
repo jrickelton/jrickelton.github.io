@@ -88,7 +88,11 @@ body {
 
 .card__image {
   background-image: linear-gradient(to bottom, #59bac3, #5fccb9);
+  font-size: 6em;
+  padding: 25%;
 }
+
+
 
 .card-tags {
   margin: 0.8em;
